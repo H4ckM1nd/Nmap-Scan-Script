@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]
 then
-        echo -e  "\e[33m[*]-Uso: ./nmapScan\e[0m" "\e[31m[<IP>]\e[0m"
+        echo -e  "\e[33m[*]Uso:\e \e[32m ./nmapScan +\e[0m" "\e[31m{IP}\e[0m"
         exit 1
 fi
 printf "\n[*] Puertos Abiertos:\n\n" > OpenPorts
@@ -14,3 +14,4 @@ printf "\n[*] Servicios corriendo:\n\n" > Targeted
 echo -e "\e[31m Escaneando Servicios...\e[0m"
 nmap -sC -sV -Pn -n -p $open_ports $1 >> Targeted
 cat Targeted
+
