@@ -5,10 +5,10 @@ Ejemplo Uso nmapscan: Ejecutar nmapscan + IP objetivo.
 
 ![nmpascan](https://githubraw.com/H4ckM1nd/Nmap-Scan-Script/main/Capturas/nmapscan1.png)
 
-Crea 2 archivos: Openport y Targeted.
+Crea 2 archivos: Openports y Targeted.
 
-OpenPorts nos indica los puertos abiertos del objetivo.
+`OpenPorts nos indica los puertos abiertos del objetivo.`
 
-Targeted nos reporta los servicios corriendo en los puertos.
+`Targeted nos reporta los servicios corriendo en los puertos.`
 
 ![Directorios](https://github.com/H4ckM1nd/Nmap-Scan-Script/blob/main/Capturas/nmapscan2.png)
